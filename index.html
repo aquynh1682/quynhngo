@@ -1,177 +1,109 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-   "http://www.w3.org/TR/html4/loose.dtd">
 
-<html lang="vi">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>test hiệu ứng</title>
-  <meta name="description" content="Hiệu ứng trình diễn ảnh 3D đẹp mắt chỉ với HTML5 và CSS3" />
-  <meta property="og:description" content="Hiệu ứng trình diễn ảnh 3D đẹp mắt chỉ với HTML5 và CSS3" />
-  <meta property="og:image" content="https://redirect.nhq.vn/demo/screenshot.png" />
-  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
-  <script type="text/javascript" charset="utf-8">
-	function hasClassName(inElement, inClassName)
-	{
-		var regExp = new RegExp('(?:^|\\s+)' + inClassName + '(?:\\s+|$)');
-		return regExp.test(inElement.className);
-	}
+<!-- saved from url=(0043)https://www.haitetvn.com/dem-nguoc-den-tet/ -->
+<html lang="vi"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-	function addClassName(inElement, inClassName)
-	{
-		if (!hasClassName(inElement, inClassName))
-			inElement.className = [inElement.className, inClassName].join(' ');
-	}
+<title>K12-KHMT</title>
 
-	function removeClassName(inElement, inClassName)
-	{
-		if (hasClassName(inElement, inClassName)) {
-			var regExp = new RegExp('(?:^|\\s+)' + inClassName + '(?:\\s+|$)', 'g');
-			var curClasses = inElement.className;
-			inElement.className = curClasses.replace(regExp, ' ');
-		}
-	}
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	function toggleClassName(inElement, inClassName)
-	{
-		if (hasClassName(inElement, inClassName))
-			removeClassName(inElement, inClassName);
-		else
-			addClassName(inElement, inClassName);
-	}
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	function toggleShape()
-	{
-		var shape = document.getElementById('shape');
-		if (hasClassName(shape, 'cube') || hasClassName(shape, 'autoLoad')) {
-			if (hasClassName(shape, 'cube')) {
-				removeClassName(shape, 'cube');
-			}
-			if (hasClassName(shape, 'autoLoad')) {
-				removeClassName(shape, 'autoLoad');
-			}
-			addClassName(shape, 'ring');
-		} else {
-			removeClassName(shape, 'ring');
-			addClassName(shape, 'cube');
-		}
+<meta name="description" content="Còn bao nhiêu ngày nữa đến Tết Nguyên Đán Canh Tý 2020?">
 
-		var stage = document.getElementById('stage');
-		if (hasClassName(shape, 'ring'))
-			stage.style.webkitTransform = 'translateZ(-200px)';
-		else
-			stage.style.webkitTransform = '';
-	}
+<meta property="og:title" content="Đồng hồ đếm ngược đến Tết Canh Tý 2020!">
+
+<meta property="og:description" content="Còn bao nhiêu ngày nữa đến Tết Nguyên Đán Canh Tý 2020?">
+
+<meta property="og:url" content="https://www.haitetvn.com/dem-nguoc-den-tet/">
+
+<meta property="og:site_name" content="Đếm Ngược Đến Tết">
+
+<meta property="og:image" content="https://www.haitetvn.com/ac.jpg">
+<script async="" src="./Đồng hồ đếm ngược đến Tết Canh Tý 2020!_files/gtm.js.tải xuống"></script><script data-ad-client="ca-pub-1159105140387848" async="" src="./Đồng hồ đếm ngược đến Tết Canh Tý 2020!_files/f.txt"></script>
+<script src="./Đồng hồ đếm ngược đến Tết Canh Tý 2020!_files/jquery-3.2.1.min.js.tải xuống"></script>
+
+<script src="./Đồng hồ đếm ngược đến Tết Canh Tý 2020!_files/js.js.tải xuống"></script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+})(window,document,'script','dataLayer','GTM-NT7TLWH');</script>
+
+
+
+<style type="text/css">
+
+html,body,div,span,h1,h2{padding: 0;border: 0;margin: 0;background:transparent;font-size: 100%;font-weight: inherit;vertical-align: baseline;}
+
+.clearfix:after { content: "\00A0"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}html[xmlns] .clearfix { display: block;}* html .clearfix{ height: 1%;}
+
+a { color:#FF0; text-decoration:none;}
+
+html{height:100%;background:url(hoa-mai.png) #900 ;overflow:hidden;text-align:center;}
+
+body{font-size:1.6em;background:transparent;color:#ffffff;font-family: 'Dancing Script',Helvetica,Arial,sans-serif;}
+
+#topbar{background-color:#000;padding:5px 0;}
+
+#main{max-width:1100px;margin:auto;margin-top:5%;}
+
+.colorlight{text-shadow: 0 0 10px #efe81d,0 0 20px #efe81d,0 0 30px #efe81d,0 0 40px #f80f1f,0 0 70px #f80f1f,0 0 80px #f80f1f,0 0 100px #f80f1f,0 0 150px #f80f1f;}
+
+h1{font-size:3em;margin:.35em 0 0;}h2{margin:0;}
+
+.clock {float:left;overflow:hidden;background-color:#fff;color:#222;border-radius: 30%;position:relative;width:20%;height:0;padding-bottom:20%;margin:3% 0 3% 4%;}
+
+.clock .num {font-size:350%;font-weight:700;height:0;line-height:190%;}
+
+.clock .text {font-size:130%;text-transform:uppercase;background-color:#eee;position:absolute;bottom:0;width:100%;line-height:180%;}
+
+.clock.tet{background-color:#f6361e;}
+
+.clock.tet .text{background-color:#d00120;}
+
+@media (max-width: 767px){body{font-size:14px;}h2{font-size:1.6em;}
+
+@media (max-width: 480px){.clock {width:35%;padding-bottom:35%;margin:5% 0 0 10%;}h1{margin-top:.55em;}}
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {#main{margin-top:1%;}h1{margin-top:0;}}
+
+</style>
+
+<link href="./Đồng hồ đếm ngược đến Tết Canh Tý 2020!_files/css" rel="stylesheet"></head>
+
+<body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NT7TLWH" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div id="main">
+
+
+	<h2 id="tetornot" class="">Đếm ngược đến tết Nguyên Đán...</h2>
+    
+    <h1 id="tet" class="">Canh Tý 2020</h1>
+
+	<div class="clearfix">
+
+		<div class="clock"><div id="days" class="num">22</div><div id="days-text" class="text">Ngày</div></div>
+
+		<div class="clock"><div id="hours" class="num">15</div><div id="hours-text" class="text">Giờ</div></div>
+
+		<div class="clock"><div id="mins" class="num">7</div><div id="mins-text" class="text">Phút</div></div>
+
+		<div class="clock"><div id="secs" class="num">2</div><div id="secs-text" class="text">Giây</div></div>
+
+	</div>	
+    
+    <audio src="ngay-tet-que-em.mp3" autoplay=""></audio>
+
+    <p>Quỳnh Ngô</p>
+
 	
-	function downloadLink()
-    {
-		location.href = 'https://www.facebook.com/quynh.ngo.169405';
-    }
-	
-	var count = 0;
-	var num_bg = 1;
-	var next_bg = 0;
-	var preLoadbg;
-	
-	function timedCount()
-	{
-		if(count >= 8) {
-			count = 0;
-			autoLoad();
-		} else {
-			count = count + 1;
-		}
-		if(next_bg >= 15) {
-			num_bg = num_bg + 1;
-			if(num_bg > 10) {
-				num_bg = 1;
-			}
-			document.body.style.backgroundImage = "url(css/bg/" + num_bg + ".jpg)";
-			preLoadbg = new Image();
-			if(num_bg == 10) {
-				preLoadbg.src = "css/bg/1.jpg";
-			} else {
-				preLoadbg.src = "css/bg/" + (num_bg + 1) + ".jpg";
-			}
-			next_bg = 0;
-		} else {
-			next_bg = next_bg + 1;
-		}
-		setTimeout(timedCount, 1000);
-	}
-	
-	function autoLoad()
-	{
-		var shapeTest = document.getElementById('shape');
-		if (hasClassName(shapeTest, 'cube')) {
-			removeClassName(shapeTest, 'cube');
-			addClassName(shapeTest, 'autoLoad');
-		} else {
-			toggleShape();
-		}
-	}
-	</script>
-	<script type="text/javascript" src="https://redirect.nhq.vn/demo/js/jquery-2.1.4.min.js"></script>
-	<script type="text/javascript" src="https://redirect.nhq.vn/demo/js/snow.js"></script>
-	<script type="text/javascript" src="https://redirect.nhq.vn/demo/js/ruoi.js"></script>
-</head>
-<body onload="timedCount()">
-	<div id="container">
-		<div id="stage">
-			<div id="shape" class="cube backfaces">
-				<div class="plane one"></div>
-				<div class="plane two"></div>
-				<div class="plane three"></div>
-				<div class="plane four"></div>
-				<div class="plane five"></div>
-				<div class="plane six"></div>
-				<div class="plane seven"></div>
-				<div class="plane eight"></div>
-				<div class="plane nine"></div>
-				<div class="plane ten"></div>
-				<div class="plane eleven"></div>
-				<div class="plane twelve"></div>
-			</div>
-		</div>
-	</div>
-	<div class="audio">
-		<audio id="player" controls autoplay>
-			<source src="https://redirect.nhq.vn/demo/audio/That_Girl.mp3" type="audio/mpeg">
-		</audio>
-	</div>
-	<div class="author">
-		<button onclick="downloadLink()">&copy; Quỳnh Ngô</button>
-	</div>
-	<script type="text/javascript">
-		var audios = [
-			"https://redirect.nhq.vn/demo/audio/That_Girl.mp3",
-			"https://redirect.nhq.vn/demo/audio/Im_Yours.mp3",
-			"https://redirect.nhq.vn/demo/audio/My_Girl.mp3",
-			"https://redirect.nhq.vn/demo/audio/Girls_Like_You.mp3",
-			"https://redirect.nhq.vn/demo/audio/There_For_You.mp3",
-			"https://redirect.nhq.vn/demo/audio/What_Makes_You_Beautiful.mp3",
-			"https://redirect.nhq.vn/demo/audio/I_Do.mp3",
-			"https://redirect.nhq.vn/demo/audio/A_Little_Love.mp3",
-			"https://redirect.nhq.vn/demo/audio/Beautiful_In_White.mp3",
-			"https://redirect.nhq.vn/demo/audio/Proud_Of_You.mp3"
-		];
-		var music = document.getElementById("player");
-		var getSrc = document.getElementsByTagName("source");
-		getSrc[0].src = audios[Math.floor(Math.random() * 10)];
-		music.load();
-		var index = audios.indexOf(getSrc[0].src);
-		music.addEventListener('ended', function() {
-			if(index == -1 || index >= 9) {
-				index = 0;
-			} else {
-				index = index + 1;
-			}
-			getSrc[0].src = audios[index];
-			music.load();
-			music.play();       
-		});
-		var firstPreload = new Image();
-		firstPreload.src = "css/bg/2.jpg";
-	</script>
-<!--//[ https://www.facebook.com/nhquyet ]//-->
+
+</div>
+
 </body>
 </html>
